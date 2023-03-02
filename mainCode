@@ -12,9 +12,7 @@ namespace randomGenerator
     internal class generatePass
     {
 
-        public void generateAccess(string getScope)
-        {
-           public void mainCode() {
+        public void mainCode() {
 
 
             Console.WriteLine();
@@ -47,8 +45,7 @@ namespace randomGenerator
                     if (collectDigit >= 8 && collectDigit <= 16)
                     {
 
-                        string getDigits = Convert.ToString(charNums);
-
+                        
                         Generator getpass = new Generator();
                         getpass.getRanPass(collectDigit);
 
@@ -91,15 +88,21 @@ namespace randomGenerator
                 }
             }
 
-            // Generator generate= new Generator();
-
-            //generate.getRanPass(8);
 
             Console.ReadKey();
 
 
 
-       }
+        }
+
+
+
+
+
+
+
+
+
 
             
         }
@@ -110,3 +113,4 @@ namespace randomGenerator
 
 
     }
+
