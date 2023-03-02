@@ -39,7 +39,7 @@ namespace RandomPassword
 
                 }else if(tecla.Modifiers == ConsoleModifiers.Control && tecla.Key == ConsoleKey.B)
                 {
-                    //codigo de marcos
+                    //tomas' folder
                 }
                 else
                 {
