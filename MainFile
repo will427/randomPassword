@@ -11,6 +11,8 @@ namespace randomGenerator
     {
         static void Main(string[] args)
         {
+            
+
             generatePass getMainCode=new generatePass();
             int regulator;
             bool accepted = true;
